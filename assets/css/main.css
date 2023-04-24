@@ -36,6 +36,16 @@ html {
   z-index: -2;
 }
 
+.video {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
 .player {
   position: relative;
   max-width: 480px;
